@@ -7,6 +7,7 @@ import member from '../pages/member'
 import shopcar from '../pages/shopcar'
 import search from '../pages/search'
 import newList from '../pages/newList'
+import newInfo from '../pages/newInfo'
 
 export default new Router({
     routes: [{
@@ -32,6 +33,10 @@ export default new Router({
         {
             path: '/home/newList',
             component: newList
+        },
+        {
+            path: '/home/newInfo',
+            component: newInfo
         }
     ],
     linkActiveClass: 'mui-active'
