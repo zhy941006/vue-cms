@@ -38,9 +38,8 @@
 .app-container{
 	margin:40px 0 50px 0;
 	height: 100%;
-	background-color: #fff;
 	overflow-x: hidden;
-	// background-color: #fff;
+	background-color: #fff;
 	}
 
 .v-enter{
