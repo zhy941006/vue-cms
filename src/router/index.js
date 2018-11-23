@@ -7,6 +7,9 @@ import member from '../pages/member'
 import shopcar from '../pages/shopcar'
 import search from '../pages/search'
 import newList from '../pages/newList'
+import newInfo from '../pages/newInfo'
+import photoShop from '../components/photoshop'
+import Thumbnail from '../components/Thumbnail'
 
 export default new Router({
     routes: [{
@@ -32,6 +35,18 @@ export default new Router({
         {
             path: '/home/newList',
             component: newList
+        },
+        {
+            path: '/home/newInfo/:id',
+            component: newInfo
+        },
+        {
+            path: '/home/photoshop',
+            component: photoShop
+        },
+        {
+            path: '/home/Thumbnail/:id',
+            component: Thumbnail
         }
     ],
     linkActiveClass: 'mui-active'
